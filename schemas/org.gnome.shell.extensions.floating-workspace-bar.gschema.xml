@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.floating-workspace-bar"
+          path="/org/gnome/shell/extensions/floating-workspace-bar/">
+    <key name="side" type="s">
+      <choices>
+        <choice value="left"/>
+        <choice value="right"/>
+        <choice value="top"/>
+        <choice value="bottom"/>
+      </choices>
+      <default>"left"</default>
+      <summary>Screen edge</summary>
+    </key>
+    <key name="toggle-shortcut" type="as">
+      <default><![CDATA[['<Super><Shift>w']]]></default>
+      <summary>Shortcut to slide the bar in/out</summary>
+    </key>
+    <key name="thumb-width" type="i">
+      <range min="80" max="600"/>
+      <default>200</default>
+      <summary>Width of each workspace preview (px); height follows screen aspect ratio</summary>
+    </key>
+    <key name="bar-length-percent" type="i">
+      <range min="20" max="100"/>
+      <default>90</default>
+      <summary>Maximum bar length as % of the screen edge (scrolls if more workspaces)</summary>
+    </key>
+    <key name="bar-padding" type="i">
+      <range min="0" max="40"/>
+      <default>10</default>
+      <summary>Padding inside the bar (px)</summary>
+    </key>
+    <key name="animation-time" type="i">
+      <range min="0" max="1000"/>
+      <default>250</default>
+      <summary>Slide animation time (ms)</summary>
+    </key>
+    <key name="hide-on-select" type="b">
+      <default>true</default>
+      <summary>Slide the bar out after jumping to a workspace</summary>
+    </key>
+  </schema>
+</schemalist>

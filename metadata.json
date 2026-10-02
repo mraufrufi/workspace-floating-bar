@@ -1,0 +1,8 @@
+{
+  "uuid": "floating-workspace-bar@example.com",
+  "name": "Floating Workspace Bar",
+  "description": "A floating bar (left/right/top/bottom) that slides in and out with a shortcut and shows live mini-previews of every workspace. Click one to jump to it.",
+  "shell-version": ["50"],
+  "settings-schema": "org.gnome.shell.extensions.floating-workspace-bar",
+  "version": 1
+}

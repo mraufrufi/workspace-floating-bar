@@ -1,0 +1,21 @@
+.wsbar {
+  background-color: rgba(30, 30, 34, 0.90);
+  border-radius: 18px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+.wsbar-thumb {
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 2px solid transparent;
+  border-radius: 8px;
+  padding: 0;
+}
+.wsbar-thumb:hover { border-color: rgba(255, 255, 255, 0.45); }
+.wsbar-thumb.active { border-color: #78aeed; }
+.wsbar-num {
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.55);
+  border-radius: 6px;
+  padding: 1px 6px;
+}
